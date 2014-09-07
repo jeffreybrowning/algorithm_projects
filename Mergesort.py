@@ -8,10 +8,12 @@ def mergesort(l):
     1 element sublists. This is very quick. Then merges the sublists together with the
     merge subroutine. 
 
-    Best Case Time Complexity:      O(nlog(n))
-    Avg Case Time Complexity:       O(nlog(n))
-    Worst Case Time Complexity:     O(nlog(n))
-    Worst Case Space Complexity:    O(n)
+    Mergesort has the following time and space complexities:
+
+        Best Case Time Complexity:      O(nlog(n))
+        Avg Case Time Complexity:       O(nlog(n))
+        Worst Case Time Complexity:     O(nlog(n))
+        Worst Case Space Complexity:    O(n)
 
     Pros:
         Most implementations are stable

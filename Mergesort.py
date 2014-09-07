@@ -16,16 +16,16 @@ def mergesort(l):
         Worst Case Space Complexity:    O(n)
 
     Pros:
-        Most implementations are stable
+        - Most implementations are stable
             Stable sorts maintain the original order of equal elements
             This is useful in the case that satalite data is stored with these elem.
-        Faster than quicksort and heapsort for linked lists
+        - Faster than quicksort and heapsort for linked lists
 
     Cons:
-        High space Complexity
-        Does not sort in-space
-        Slower on average than Quicksort
-        More space than Heapsort
+        - High space Complexity
+        - Does not sort in-space
+        - Slower on average than Quicksort
+        - More space than Heapsort
     """
 
     if len(l) <= 1:  #Base case: 0 or 1 len list is just returned

@@ -31,9 +31,10 @@ def backpack(items, weight):
     n = len(items)
     for i in range(1, n):
         for j in range(weight):
-            maximum = dp(i,j)
-    return maximum
+            dp(i,j)
+    return dp(n-1, weight-1)
 
-#items = [(5, 9), (3, 1), (2, 1), (6, 6), (2, 2)]
-#w = 15
-#print backpack(items, w)
+if __name__ == "__main__":
+    items = [(5, 9), (3, 1), (2, 1), (6, 6), (2, 2)]
+    w = 15
+    print backpack(items, w)
